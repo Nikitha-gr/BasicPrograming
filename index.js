@@ -9,3 +9,13 @@ function checkPrime(num){
 }
 
 console.log(checkPrime(23));
+
+//Function to check Even or Odd
+function evenOdd(num){
+    if(num%2==0){
+        return true;
+    }
+    return false;
+}
+
+console.log(evenOdd(23));
